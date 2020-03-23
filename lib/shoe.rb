@@ -7,7 +7,7 @@ class Shoe
    def initialize(brand)
    @brand = brand 
    BRANDS << brand 
-   if "BRANds" == brand 
+   if "BRANDS" == brand 
      puts "true"
    else 
      nil 
