@@ -7,6 +7,11 @@ class Shoe
    def initialize(brand)
    @brand = brand 
    BRANDS << brand 
+   if brand == BRANDS 
+     puts true 
+   else 
+     nil 
+   end 
   end 
   
   def cobble
